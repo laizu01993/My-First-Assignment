@@ -1,0 +1,18 @@
+/* shared styles */
+.btn-primary{
+    background-color: #0D1321;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 22px;
+}
+/* banner styles */
+.banner{
+    text-align: center;
+    background-image: url('../assets/Hero-bg.png');
+}
+h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 68px;
+}
