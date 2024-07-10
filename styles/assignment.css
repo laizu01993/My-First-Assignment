@@ -1,3 +1,16 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+
 /* shared styles */
 .btn-primary{
     background-color: #0D1321;
@@ -6,13 +19,87 @@
     font-size: 20px;
     padding: 20px 22px;
 }
+.section-title{
+    font-size:32px;
+    font-weight: 800;
+    color: rgba(13, 19, 33, 1)#;
+    
+}
+.section-description{
+    font-size:16px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 1);
+} 
+.secondary-bg{
+   background-color: #FFFFFF;  
+    
+}
+
+
 /* banner styles */
 .banner{
     text-align: center;
     background-image: url('../assets/Hero-bg.png');
+    
 }
-h3{
-    font-weight: 600;
-    font-size: 40px;
+.banner-title{
+    font-weight: 800;
+    font-size: 48px;
     line-height: 68px;
+    color: #0D1321;
+    text-align: center;
+    
 }
+.banner-description{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.banner-content{
+    
+    text-align: center;
+    
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About styles */
+.about{
+    padding: 80px 92px;
+    text-align: center;
+    margin-top: 120PX;
+    }
+/* container styles */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #FFFFFF;
+}
+.text-content{
+    flex: 1;
+    margin-right:20px;
+    
+}
+.text-content h4{
+    font-weight: bold;
+    font-size: 24px;
+    color: #0D1321;
+}
+.text-content p{
+    font-weight: 400;
+    font-size: 16px;
+    color:#0D1321 ;
+}
+.btn{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 18px 20px;
+}
+    
+
+
