@@ -65,11 +65,15 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* About styles */
 .about{
     padding: 80px 92px;
     text-align: center;
-    margin-top: 120PX;
+    
     }
 /* container styles */
 .container{
@@ -79,6 +83,7 @@ main{
     padding: 20px;
     margin: 20px 0;
     background-color: #FFFFFF;
+    margin-top: 20px;
 }
 .text-content{
     flex: 1;
@@ -98,8 +103,67 @@ main{
 .btn{
     font-weight: 600;
     font-size: 20px;
-    padding: 18px 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
+/* inspiration styles */
+.inspiration h3{
+    font-weight: 800;
+    font-size:32px;
+    text-align: center;
+    color: #0D1321;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.inspiration p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.video-section{
     
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    display:block
+    
+}
+.div iframe{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin:0px auto;
+}
+
+/* shared styles */
+.text-centre{
+    text-align: center;
+    margin-top: 80px;
+    margin: auto;
+    
+    
+}
+/* skills section styles */
+.skills-container{
+    display: flex;
+    margin-top: 30px;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+}
+button{
+    text-decoration: underline;
+    border: none;
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+    background-image:url(../assets/handshake.jpg)
+}
 
 
