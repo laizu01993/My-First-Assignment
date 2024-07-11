@@ -104,9 +104,13 @@ main section{
     font-weight: 600;
     font-size: 20px;
     padding: 10px 20px;
-    text-decoration: none;
+    text-decoration:underline
     border-radius: 5px;
+    
+    
+    
 }
+
 /* inspiration styles */
 .inspiration h3{
     font-weight: 800;
@@ -125,13 +129,13 @@ main section{
 }
 .video-section{
     
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     justify-content: center;
     display:block
     
 }
-.div iframe{
+.iframe{
     justify-content: center;
     text-align: center;
     display: block;
@@ -152,18 +156,61 @@ main section{
     margin-top: 30px;
     gap: 24px;
 }
-.skill{
+.container-1{
     padding: 30px;
     border-radius: 5px;
+    background-color:#EBEBEB ;
+}
+.container-2{
+    padding:30px;
+    border-radius: 5px;
+    background-color:#D1DEFF ;
+}
+.container-3{
+    padding: 30px;
+    border-radius: 5px;
+    background-color:#FADF68;
+}
+.container-1 h3{
+    text-align: center;
+    justify-content: center;
+}
+.container-2 h3{
+    text-align: center;
+    justify-content: center;
+}
+.container-3 h3{
+    text-align: center;
+    justify-content: center;
 }
 button{
     text-decoration: underline;
     border: none;
+    line-height: auto;
+    font-size: 16px;
+}
+.support-form{
+    background-image: url(../assets/handshake.jpg);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.support-form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.support-form input[type="text"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
 }
 .footer{
-    text-align: center;
-    justify-content: center;
-    background-image:url(../assets/handshake.jpg)
+    margin-top: 20px;
+    display: flex;
 }
+
 
 
