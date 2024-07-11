@@ -139,7 +139,7 @@ main section{
 .iframe{
     justify-content: center;
     text-align: center;
-    
+    border-radius: 50px;
     margin:5px
 }
 
@@ -201,7 +201,8 @@ button{
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    
 }
 .support-form input[type="submit"] {
     padding: 10px 20px;
@@ -217,6 +218,9 @@ button{
 .footer{
     margin-top: 20px;
     display: flex;
+}
+.social-icons{
+    display:flex;
 }
 
 
